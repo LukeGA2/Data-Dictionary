@@ -1,0 +1,100 @@
+data dictionary
+
+totalFloor
+total number of floors in the building
+
+totalLift
+total number of lifts in the building
+
+totalSimTime
+how long does the user want to simulate
+
+capacity
+the maximum passenger can be hold in the lift
+
+time_PsgInOut
+how long does one passenger enter and exit lift
+
+time_OpenClose
+how long does the lift open door and close door
+
+time_FloorToFloor
+how long does lift moves from one floor to another floor
+
+startTime
+the traffic start time
+
+endTime
+the traffic end time
+
+demandPsg
+how many times does the lift will be used in the traffic time
+
+liftID
+unique number to distinguish lift in one building
+
+currFloor
+the current floor of lift
+
+destFloor
+the destination floor of lift
+
+status
+lift can have up, down, stop and so on status
+
+currPsg
+how many passenger in the lift, currently
+
+runningTime—————-
+
+
+fromFloor
+traffic happens floor(fromFloor or toFloor)
+
+toFloor
+traffic happens floor(fromFloor or toFloor)
+
+arrTime
+passenger arrives lift door
+
+arrFloor
+passenger arrives floor
+
+destFloor
+passenger destination floor
+
+status
+passenger can have wait, in and exit status
+
+waitTime
+how long has passenger waited
+
+totalTime
+how long does passenger in the system(waiting Time+ inLift time)
+
+avgWaitTime
+average waiting time
+
+avgQLength
+average queue length of each floor
+
+avgTotalTime
+average total time of passenger in the system
+
+pctBusy
+percentage of busy of each lift
+
+qLength
+how long is the queue length of the floor
+
+psgList
+a list of passenger who are waiting in the floor
+
+floorID
+identity of floor number
+
+type
+building type, school, office, apartment
+
+trafficList
+a list of traffic (startTime, endTime, demandPsg, fromFloor or toFloor)
